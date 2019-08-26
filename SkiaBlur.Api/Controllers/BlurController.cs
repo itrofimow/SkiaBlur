@@ -33,7 +33,7 @@ namespace SkiaBlur.Api.Controllers
                             
                             return new FileStreamResult(resultStream, "image/jpeg")
                             {
-                                FileDownloadName = "blured",
+                                FileDownloadName = "blurred",
                                 EnableRangeProcessing = true
                             };
                         }
